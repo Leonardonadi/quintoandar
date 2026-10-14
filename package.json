@@ -1,0 +1,15 @@
+{
+  "name": "quinto-andar-search-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:e2e": "cypress run",
+    "test:e2e:playwright": "bddgen && playwright test",
+    "test:e2e:playwright:ui": "bddgen && playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "cypress": "^15.0.0",
+    "playwright-bdd": "^9.2.1"
+  }
+}
